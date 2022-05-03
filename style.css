@@ -1,0 +1,82 @@
+:root{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 100px 100px;
+}
+p{
+    color: rgb(69, 69, 69);
+    text-align: center;
+
+}
+.introduction-text{
+    color: white;
+    text-align: center;
+    /* margin: 50px 500px; */
+}
+.error{
+    text-align: center;
+    color: red;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+input{
+    width: 280px;
+    height: 20px;
+    border-radius: 5px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zip-code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.password-confirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr.solid{
+    border-top: solid 2px rgb(196, 196, 196);
+    width: 280px;
+}
+.section{
+    margin: 10px 0 40px 0;
+}
+button{
+    width: 290px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+
+}

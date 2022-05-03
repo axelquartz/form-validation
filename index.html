@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>Form Validation Example</h1>
+    <div>
+        <p class="introduction-text">
+            This simple form doesn't go anywhere, but it is usefull to test different data inputs and their validation.
+        </p>
+    </div>
+    
+    <form action="" id="form">
+        <div class="section">
+            <div class="error"><p></p></div>
+            <div class="mail">
+                <label for="mail"><p>Your Mail</p></label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div class="country">
+                <label for="country"><p>Your Country</p></label>
+                <input type="name" name="country" id="country">
+            </div>
+            <div class="zip-code">
+                <label for="zip-code"><p>Your Zip Code</p></label>
+                <input type="number" name="zip-code" id="zip-code">
+            </div>
+        </div>
+        
+        <hr class="solid">
+
+        <div class="section">
+            <div class="password">
+                <label for="password"><p>Your Password</p></label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="password-confirmation">
+                <label for="password"><p>Confirm Your Password</p></label>
+                <input type="password" name="password" id="password-confirmation">
+            </div>
+        </div>
+        <button type="submit" id="submit-button">Submit Form</button>
+
+    </form>
+</body>
+</html>
